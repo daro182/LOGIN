@@ -1,5 +1,5 @@
 import { mail, pass } from "./userDB.js";
-import {aproved} from "./respuestas.js"
+import {aproved, denied} from "./respuestas.js"
 
 /*declaracion de variables ingreso*/
 let mailin, passin;
@@ -28,3 +28,5 @@ for (let i = 1; i < 4 ; i++) {
                 }   
             }
 }
+document.body.innerHTML = denied;
+
